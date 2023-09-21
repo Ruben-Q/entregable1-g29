@@ -1,0 +1,79 @@
+
+.container {
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.conteiner_titler{
+    text-shadow: 0.15em 0.15em #9999;
+    font-size: 2em;
+
+}
+
+.container_phrase {
+    width: 100%;
+    max-width: 30em;
+    background-color: rgb(240, 239, 239);
+    padding: 1.5em 2em;
+    line-height: 1.4;
+    border-radius: 50em;
+    
+}
+.container_btn {
+    height: 5em;
+    width: em;
+    padding: 0.8em 1.2em;
+    border-radius: 50em;
+    font-size: 1.2rem;
+    opacity: 0.7;
+    background-color: rgb(240, 239, 239);
+    color: rgb(5, 5, 255);
+    border: none;
+    
+}
+
+.contenedorTitulo {
+    padding: 0.5em;
+    background-color: rgba(0, 0, 0, 0.24);
+    color: rgb(39, 24, 247);
+    border-radius: 1em;
+}
+
+.conteinerBack_phrase {
+    background-color:  rgba(0, 0, 0, 0.24);
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container_btn:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0 0 5.em rgba(255, 255, 255, 0.333);
+}
+
+.contenedor-frace-payaso {
+
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+gap: 0.5em;
+}
+
+@media ( max-width: 400px){
+    body{
+        background-color: royalblue;
+    }
+}
+
